@@ -1,0 +1,6 @@
+.header {
+    height: var(--xl);
+    width: 100%;
+    background-color: var(--color-primary-700);
+    padding: 20px;
+}

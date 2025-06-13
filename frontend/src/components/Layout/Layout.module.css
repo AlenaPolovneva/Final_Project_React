@@ -1,0 +1,9 @@
+.countainer {
+    display: flex;
+    flex-direction: column;
+    height: 100hv;
+}
+.mainCountainer {
+    display: flex;
+    flex: 1;
+}
