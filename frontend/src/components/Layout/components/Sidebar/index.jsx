@@ -1,6 +1,6 @@
 import { NavLink } from "react-router";
 
-import { sideBarRoutes } from "../../helpers/sideBarRoutes.jsx";
+import { sideBarRoutes } from "../../../../helpers/sideBarRoutes.jsx";
 
 import styles from "./Sidebar.module.css";
 

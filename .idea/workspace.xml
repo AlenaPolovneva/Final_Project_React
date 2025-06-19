@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="64edb30a-cdb5-4dfa-a408-84eccc3d0b58" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/backend/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/routes/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/routes/register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/routes/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/usersStore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/hotel-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/hotel-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/hotel-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/hotel-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/assets/hotel-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/hooks/useDebounce.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/loaders/hotelsLoader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/about-us/AboutUs.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/travel/Travel.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/travel/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/app.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/db (1).json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/db (1).json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/middleware/auht.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/backend/middleware/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/routes/destinations.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/destinations.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/routes/hotels.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/hotels.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Layout/Layout.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Layout/Layout.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Layout/components/Sidebar/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Layout/components/Sidebar/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Layout/helpers/sideBarRoutes.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/helpers/sideBarRoutes.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Layout/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Layout/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/about-us/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/about-us/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/hotels/Hotels.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/hotels/Hotels.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/hotels/components/HotelCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/hotels/components/HotelCard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/hotels/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/hotels/index.jsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="JSX File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2yT0Vuf4e5ePMbMu7oZJqsqeXCm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;lec33__hw1&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.3.2.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\_Hp_\WebstormProjects\FinalProjectReact\frontend\src" />
+      <recent name="C:\Users\_Hp_\WebstormProjects\FinalProjectReact\frontend\src\assets" />
+      <recent name="C:\Users\_Hp_\WebstormProjects\FinalProjectReact\backend" />
+      <recent name="C:\Users\_Hp_\WebstormProjects\FinalProjectReact" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-WS-243.23654.157" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="64edb30a-cdb5-4dfa-a408-84eccc3d0b58" name="Changes" comment="" />
+      <created>1749843283202</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1749843283202</updated>
+      <workItem from="1749843284429" duration="1204000" />
+      <workItem from="1749844526502" duration="287000" />
+      <workItem from="1749844849661" duration="579000" />
+      <workItem from="1749845461292" duration="156000" />
+      <workItem from="1749845689235" duration="268000" />
+      <workItem from="1749845979993" duration="70000" />
+      <workItem from="1750093477969" duration="50000" />
+      <workItem from="1750093547352" duration="1115000" />
+      <workItem from="1750094730931" duration="1017000" />
+      <workItem from="1750095782427" duration="91000" />
+      <workItem from="1750095896934" duration="462000" />
+      <workItem from="1750096402552" duration="85000" />
+      <workItem from="1750097338155" duration="8472000" />
+      <workItem from="1750180891961" duration="106000" />
+      <workItem from="1750185218358" duration="611000" />
+      <workItem from="1750352247339" duration="1789000" />
+      <workItem from="1750354088341" duration="2522000" />
+      <workItem from="1750356676220" duration="3049000" />
+      <workItem from="1750359789286" duration="2087000" />
+      <workItem from="1750361930410" duration="277000" />
+      <workItem from="1750362236862" duration="250000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

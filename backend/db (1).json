@@ -115,7 +115,7 @@
       "state": null,
       "country_code": "US",
       "hotel_rating": 4,
-      "imageUrl":"https://unsplash.com/photos/a-living-room-with-a-large-window-and-a-dining-table-gU-txqe3lGw",
+      "imageUrl":"hotel-1.jpg",
       "phone_number",: "18005740835",
       "website": null
     },
@@ -127,7 +127,7 @@
       "state": null,
       "country_code": "BR",
       "hotel_rating": 0,
-      "imageUrl":"https://unsplash.com/photos/a-cozy-lounge-features-a-fireplace-and-firewood-stacks-JTWOWjraDUE",
+      "imageUrl":"hotel-2.jpg",
       "phone_number",: null,
       "website": null
     },
@@ -139,7 +139,7 @@
       "state": "NY",
       "country_code": "US",
       "hotel_rating": 3.5,
-      "imageUrl":"https://unsplash.com/photos/modern-kitchen-with-black-cabinets-and-dining-table-TbFnOfyzm0U",
+      "imageUrl":"hotel-3.jpg",
       "phone_number",: "212260414",
       "website": null
     },
@@ -151,7 +151,7 @@
       "state": "NY",
       "country_code": "US",
       "hotel_rating": 3,
-      "imageUrl":"https://unsplash.com/photos/modern-and-bright-living-space-with-minimalist-design-Hu_6KP4m9xA",
+      "imageUrl":"hotel-4.jpg",
       "phone_number",: "1 212 2191018",
       "website": null
     },
@@ -163,7 +163,7 @@
       "state": "NY",
       "country_code": "US",
       "hotel_rating": 2.5,
-      "imageUrl": "https://unsplash.com/photos/a-modern-minimalist-apartment-with-dark-interior-raMejfP1E4o",
+      "imageUrl": "hotel-5.jpg",
       "phone_number": null,
       "website": null
     },
@@ -175,7 +175,7 @@
       "state": "NY",
       "country_code": "US",
       "hotel_rating": 4,
-      "imageUrl": "https://unsplash.com/photos/a-modern-kitchen-with-minimalist-dining-area-oNUID4FVbuQ",
+      "imageUrl": "hotel-1.jpg",
       "phone_number": null,
       "website": null
     },
@@ -187,7 +187,7 @@
       "state": "NY",
       "country_code": "US",
       "hotel_rating": 3.5,
-      "imageUrl": "https://unsplash.com/photos/a-large-open-living-room-and-dining-room-area-ECQNIIvWzoc",
+      "imageUrl": "hotel-2.jpg",
       "phone_number": "1-212-398-2700",
       "website": null
     },
@@ -199,7 +199,7 @@
       "state": "NY",
       "country_code": "US",
       "hotel_rating": 3,
-      "imageUrl":"https://unsplash.com/photos/a-minimalist-home-office-with-a-laptop-GfM6AG6QSfo",
+      "imageUrl":"hotel-3.jpg",
       "phone_number",: "1 212 777-0012",
       "website": null
     },
@@ -211,7 +211,7 @@
       "state": "NY",
       "country_code": "US",
       "hotel_rating": 3,
-      "imageUrl":"https://unsplash.com/photos/a-living-room-filled-with-furniture-and-a-flat-screen-tv-lEmCoxbwULY",
+      "imageUrl":"hotel-4.jpg",
       "phone_number",: null,
       "website": null
     },
@@ -223,7 +223,7 @@
       "state": null,
       "country_code": "US",
       "hotel_rating": 3,
-      "imageUrl":"https://unsplash.com/photos/a-living-room-filled-with-furniture-and-a-large-mirror-4ymrsMSShTo",
+      "imageUrl":"hotel-5.jpg",
       "phone_number",: "XX",
       "website": null
     },
@@ -235,7 +235,7 @@
       "state": "NY",
       "country_code": "US",
       "hotel_rating": 4.5,
-      "imageUrl":"https://unsplash.com/photos/a-dining-room-with-a-table-and-chairs-nOW_lfVNh28",
+      "imageUrl":"hotel-1.jpg",
       "phone_number",: null,
       "website": null
     },
@@ -247,7 +247,7 @@
       "state": "NY",
       "country_code": "US",
       "hotel_rating": 2.5,
-      "imageUrl":"https://unsplash.com/photos/a-living-room-filled-with-furniture-and-a-large-window-v7MuTvQZkQU",
+      "imageUrl":"hotel-2.jpg",
       "phone_number",: null,
       "website": null
     },
@@ -259,7 +259,7 @@
       "state": null,
       "country_code": "US",
       "hotel_rating": 3,
-      "imageUrl":"https://unsplash.com/photos/beautiful-vintage-interior-wooden-walls-concept-d73p8rNXsz8",
+      "imageUrl":"hotel-3.jpg",
       "phone_number",: "17186985000",
       "website": null
     },

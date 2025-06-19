@@ -1,6 +1,21 @@
 .wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 32px 16px;
     display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
+
 .controls {
     display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+}
+
+.hotelList {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 24px;
 }

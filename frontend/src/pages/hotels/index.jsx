@@ -2,12 +2,12 @@ import { useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 
 import { getHotels } from "../../store/thunks/hotelsThunks.jsx";
-
+import useDebounce from "../../hooks/useDebounce.jsx";
 import HotelCard from "./components/HotelCard.jsx";
 
 import { Select, Input } from "antd";
 import styles from "./Hotels.module.css";
-//import BonusesImg from "../../assets/icon/phone.svg";
+
 const { Option } = Select;
 
 const Hotels = () => {
@@ -16,14 +16,16 @@ const Hotels = () => {
 
     const dispatch = useDispatch ();
 
+    const debouncedQuery = useDebounce(searchQuery);
+
     const { destinations, error, loading } = useSelector(state => state.destinations);
     const { hotels, error: hotelsError, loading:hotelsLoading } = useSelector(state => state.hotels);
 
     useEffect(() => {
         if(selectedCity) {
-            dispatch(getHotels ({destinationId: selectedCity, query: searchQuery}))
+            dispatch(getHotels ({destinationId: selectedCity, query: debouncedQuery }))
         }
-    }, [selectedCity, searchQuery]);
+    }, [selectedCity, debouncedQuery]);
 
     return (
         <div className={styles.wrapper}>
@@ -46,11 +48,20 @@ const Hotels = () => {
                />
            </div>
 
-            {(loading && hotelsLoading) && <div>Loading...</div>}
+            {(loading || hotelsLoading) && <div>Loading...</div>}
 
+            {error && <Alert message="Error loading destinations" type="error" showIcon style={{ margin: "20px 0" }} />}
+            {hotelsError && <Alert message="Error loading hotels" type="error" showIcon style={{ margin: "20px 0" }} />}
             <div className={styles.hotelList}>
+
                 {hotels?.map(hot => (
-                   <HotelCard key={ hot.id} hot={hot}/>
+                   <HotelCard
+                       key={ hot.id }
+                       name={hot.name}
+                       city={hot.city}
+                       phone_number={hot.phone_number}
+                       hotel_rating={hot.hotel_rating}
+                   />
                 ))}
             </div>
         </div>

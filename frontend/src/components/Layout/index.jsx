@@ -8,9 +8,9 @@ import styles from "./Layout.module.css"
 
 const Layout = () => {
     return (
-        <div className={styles.countainer}>
+        <div className={styles.container}>
             <Header />
-            <div className={styles.mainCountainer}>
+            <div className={styles.mainContainer}>
                 <Sidebar />
                 <Outlet />
             </div>

@@ -2,8 +2,11 @@ import { createBrowserRouter,RouterProvider } from "react-router";
 
 import AboutUs from "./pages/about-us/index.jsx";
 import Hotels from "./pages/hotels/index.jsx";
+import Travel from "./pages/travel/index.jsx";
 
 import Layout from "./components/Layout/index.jsx";
+import HotelCard from "./pages/hotels/components/HotelCard.jsx";
+import {hotelLoader, hotelsLoader} from "./loaders/hotelsLoader.js";
 
 
 const router = createBrowserRouter([
@@ -23,6 +26,16 @@ const router = createBrowserRouter([
             {
                 path: "hotels",
                 element: <Hotels />,
+                loader:hotelsLoader,
+            },
+            {
+                 path: "hotel/:id",
+                 element: <HotelCard />,
+                 loader: hotelLoader,
+            },
+            {
+                path: "travel",
+                element: <Travel />,
                 loader: () => {console.log("Loading data"); return "My data"}
             },
             {

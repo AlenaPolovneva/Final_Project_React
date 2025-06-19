@@ -1,9 +1,9 @@
-.countainer {
+.container {
     display: flex;
     flex-direction: column;
-    height: 100hv;
+    height: 100vh;
 }
-.mainCountainer {
+.mainContainer {
     display: flex;
     flex: 1;
 }
