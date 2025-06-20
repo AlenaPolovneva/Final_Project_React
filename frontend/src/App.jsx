@@ -26,7 +26,7 @@ const router = createBrowserRouter([
             {
                 path: "hotels",
                 element: <Hotels />,
-                loader:hotelsLoader,
+                loader: hotelsLoader,
             },
             {
                  path: "hotel/:id",

@@ -1,5 +1,5 @@
 {
-  "destination": [
+  "destinations": [
     {
       "id": 1,
       "value": 70,
@@ -116,7 +116,7 @@
       "country_code": "US",
       "hotel_rating": 4,
       "imageUrl":"hotel-1.jpg",
-      "phone_number",: "18005740835",
+      "phone_number": "18005740835",
       "website": null
     },
     {
@@ -128,7 +128,7 @@
       "country_code": "BR",
       "hotel_rating": 0,
       "imageUrl":"hotel-2.jpg",
-      "phone_number",: null,
+      "phone_number": null,
       "website": null
     },
     {
@@ -140,7 +140,7 @@
       "country_code": "US",
       "hotel_rating": 3.5,
       "imageUrl":"hotel-3.jpg",
-      "phone_number",: "212260414",
+      "phone_number": "212260414",
       "website": null
     },
     {
@@ -152,7 +152,7 @@
       "country_code": "US",
       "hotel_rating": 3,
       "imageUrl":"hotel-4.jpg",
-      "phone_number",: "1 212 2191018",
+      "phone_number": "1 212 2191018",
       "website": null
     },
     {
@@ -200,7 +200,7 @@
       "country_code": "US",
       "hotel_rating": 3,
       "imageUrl":"hotel-3.jpg",
-      "phone_number",: "1 212 777-0012",
+      "phone_number": "1 212 777-0012",
       "website": null
     },
     {
@@ -212,7 +212,7 @@
       "country_code": "US",
       "hotel_rating": 3,
       "imageUrl":"hotel-4.jpg",
-      "phone_number",: null,
+      "phone_number": null,
       "website": null
     },
     {
@@ -224,7 +224,7 @@
       "country_code": "US",
       "hotel_rating": 3,
       "imageUrl":"hotel-5.jpg",
-      "phone_number",: "XX",
+      "phone_number": "XX",
       "website": null
     },
     {
@@ -236,7 +236,7 @@
       "country_code": "US",
       "hotel_rating": 4.5,
       "imageUrl":"hotel-1.jpg",
-      "phone_number",: null,
+      "phone_number": null,
       "website": null
     },
     {
@@ -248,7 +248,7 @@
       "country_code": "US",
       "hotel_rating": 2.5,
       "imageUrl":"hotel-2.jpg",
-      "phone_number",: null,
+      "phone_number": null,
       "website": null
     },
     {
@@ -260,7 +260,7 @@
       "country_code": "US",
       "hotel_rating": 3,
       "imageUrl":"hotel-3.jpg",
-      "phone_number",: "17186985000",
+      "phone_number": "17186985000",
       "website": null
     },
     {

@@ -12,7 +12,9 @@ export const getDestinations = createAsyncThunk(
                 throw new Error("Failed to fetch destinations!");
             }
 
-            return await res.json();
+            const data = await res.json();
+            console.log("From destinations", data);
+            return data;
         } catch (err) {
             return rejectWithValue(err.message);
         }

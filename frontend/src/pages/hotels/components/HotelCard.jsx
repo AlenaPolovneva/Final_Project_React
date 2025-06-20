@@ -1,7 +1,6 @@
 import { useNavigate } from "react-router";
 import PropTypes from "prop-types";
 import { Card, Button, Rate } from "antd";
-import Hotels from "../index.jsx";
 
 const HotelCard = ({ hot }) => {
     const navigate = useNavigate();
@@ -17,7 +16,7 @@ const HotelCard = ({ hot }) => {
             cover={
                 <img
                     alt={hot.name}
-                    src={hot?.imageUrl}
+                    src={`src/assets/${hot.imageUrl}`}
                     style={{ height: 200, objectFit: "cover" }}
                 />
             }

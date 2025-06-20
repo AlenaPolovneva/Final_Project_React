@@ -8,7 +8,7 @@ router.post('/', (req, res) => {
     try {
         const db = JSON.parse(fs.readFileSync('db.json', 'utf-8'));
 
-        const destination = db.destination.find(d => d.id === destinationId);
+        const destination = db.destinations.find(d => d.id === destinationId);
         if (!destination) {
             return res.status(404).json({ message: 'Destination not found' });
         }
@@ -28,3 +28,5 @@ router.post('/', (req, res) => {
         res.status(500).json({ message: 'Server error' });
     }
 });
+
+module.exports = router;

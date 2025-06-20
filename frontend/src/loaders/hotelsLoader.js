@@ -3,8 +3,8 @@ import { getDestinations } from "../store/thunks/destinationsThunks.jsx";
 
 const API_URL = "http://localhost:4000";
 
-export async function hotelsLoader (){
-    await store. dispatch(getDestinations());
+export async function hotelsLoader () {
+    await store.dispatch(getDestinations());
     return null;
 }
 export async function hotelLoader ({ params }){

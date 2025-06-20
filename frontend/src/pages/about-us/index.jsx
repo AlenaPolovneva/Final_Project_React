@@ -8,14 +8,14 @@ const AboutUs = () => {
             </p>
 
             <h2>Goal</h2>
-            <p className={styles.text}>
+            <div className={styles.text}>
                 To create a convenient service that allows users to:
                 <ul className={styles.list}>
                     <li>search for hotels by destination,</li>
                     <li>view key information about each hotel (price, rating, description),</li>
                     <li>quickly get results through optimized search functionality.</li>
                 </ul>
-            </p>
+            </div>
 
             <h2>Technologies Used</h2>
             <ul className={styles.list}>

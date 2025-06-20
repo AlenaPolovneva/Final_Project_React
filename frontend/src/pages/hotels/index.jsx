@@ -5,7 +5,7 @@ import { getHotels } from "../../store/thunks/hotelsThunks.jsx";
 import useDebounce from "../../hooks/useDebounce.jsx";
 import HotelCard from "./components/HotelCard.jsx";
 
-import { Select, Input } from "antd";
+import {Select, Input, Alert} from "antd";
 import styles from "./Hotels.module.css";
 
 const { Option } = Select;
@@ -23,7 +23,7 @@ const Hotels = () => {
 
     useEffect(() => {
         if(selectedCity) {
-            dispatch(getHotels ({destinationId: selectedCity, query: debouncedQuery }))
+            dispatch(getHotels({destinationId: selectedCity, query: debouncedQuery }))
         }
     }, [selectedCity, debouncedQuery]);
 
@@ -57,10 +57,7 @@ const Hotels = () => {
                 {hotels?.map(hot => (
                    <HotelCard
                        key={ hot.id }
-                       name={hot.name}
-                       city={hot.city}
-                       phone_number={hot.phone_number}
-                       hotel_rating={hot.hotel_rating}
+                       hot={ hot }
                    />
                 ))}
             </div>
