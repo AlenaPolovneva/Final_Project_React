@@ -1,4 +1,4 @@
-import { store } from "../store";
+import { store } from "../store/index.jsx";
 import { getDestinations } from "../store/thunks/destinationsThunks.jsx";
 
 const API_URL = "http://localhost:4000";

@@ -4,8 +4,8 @@ import { Select, Button } from "antd";
 
 import styles from "./Travel.module.css";
 import HotelCard from "../hotels/components/HotelCard.jsx";
-import { getDestinations } from "../../store/thunks/destinationsThunks";
-import { getHotels } from "../../store/thunks/hotelsThunks";
+import { getDestinations } from "../../store/thunks/destinationsThunks.jsx";
+import { getHotels } from "../../store/thunks/hotelsThunks.jsx";
 
 const { Option } = Select;
 
