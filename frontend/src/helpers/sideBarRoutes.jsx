@@ -3,7 +3,7 @@ import HotelsIcon from "../assets/icon/calendar.svg?react";
 import AboutIcon from "../assets/icon/network.svg?react";
 
 export const sideBarRoutes = [
-    {label:"Home", path:"./", icon:<PhoneIcon/>},
+    {label:"About Us", path:"./about-us", icon:<PhoneIcon/>},
     {label:"Hotels", path:"./hotels", icon:<HotelsIcon/>},
-    {label:"About", path:"./about-us", icon:<AboutIcon/>},
+    {label:"Travel", path:"./travel", icon:<AboutIcon/>},
 ]

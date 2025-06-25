@@ -271,6 +271,7 @@
       "state": "NY",
       "country_code": "US",
       "hotel_rating": 4.5,
+      "imageUrl":"hotel-1.jpg",
       "phone_number": null,
       "website": null
     },
@@ -282,6 +283,7 @@
       "state": "NY",
       "country_code": "US",
       "hotel_rating": 3,
+      "imageUrl":"hotel-2.jpg",
       "phone_number": null,
       "website": null
     },
@@ -293,6 +295,7 @@
       "state": "NY",
       "country_code": "US",
       "hotel_rating": 4,
+      "imageUrl":"hotel-3.jpg",
       "phone_number": "121-247-51920",
       "website": "https://freehandhotels.com/new-york/rooms/"
     },
@@ -304,6 +307,7 @@
       "state": "NY",
       "country_code": "US",
       "hotel_rating": 2,
+      "imageUrl":"hotel-4.jpg",
       "phone_number": null,
       "website": null
     },
@@ -315,6 +319,7 @@
       "state": "NY",
       "country_code": "US",
       "hotel_rating": 3,
+      "imageUrl":"hotel-5.jpg",
       "phone_number": null,
       "website": null
     },
@@ -326,6 +331,7 @@
       "state": "NY",
       "country_code": "US",
       "hotel_rating": 5,
+      "imageUrl":"hotel-1.jpg",
       "phone_number": "+1 212 842 5500",
       "website": null
     },
@@ -337,6 +343,7 @@
       "state": null,
       "country_code": "US",
       "hotel_rating": 3,
+      "imageUrl":"hotel-2.jpg",
       "phone_number": null,
       "website": null
     },
@@ -348,6 +355,7 @@
       "state": "NY",
       "country_code": "US",
       "hotel_rating": 3,
+      "imageUrl":"hotel-3.jpg",
       "phone_number": "703-261-5677",
       "website": null
     },

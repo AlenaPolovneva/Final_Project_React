@@ -65,6 +65,11 @@ const Travel = () => {
                     <HotelCard key={hotel.id} hot={hotel} />
                 ))}
             </div>
+            <div className={styles.contactBlock}>
+                <h2>Contacts</h2>
+                <p><strong>Tel:</strong> +380 952529504</p>
+                <p><strong>Email:</strong> polovnieva.alena@gmail.com</p>
+            </div>
         </div>
     );
 };
